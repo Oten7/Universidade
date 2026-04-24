@@ -12,7 +12,7 @@ acesso = False
 while tentativas < max_tentaivas:
     usuario = input("Digite seu usuario: ")
     senha = input("Digite sua senha: ")
-    if senha == usuario_cadastrado:
+    if senha == senha_cadastrado and usuario == usuario_cadastrado:
         acesso = True
         break
     else:
